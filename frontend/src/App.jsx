@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Container maxWidth="md" sx={{ mt: 4, mb: 4 }}>
       <Typography variant="h4" align="center" gutterBottom sx={{ color: 'text.primary' }}>
-        🏆 Leaderboard
+         Leaderboard
       </Typography>
       <TopThree users={topThree} />
       <Box mt={4}>
